@@ -1,0 +1,32 @@
+a {
+  width: 20px;
+  height: 20px;
+  background: blue;
+  display: inline; }
+
+.radiohead.bandmember.thom {
+  background: url("images/radiohead/thom.jpg"); }
+
+.radiohead.bandmember.honny {
+  background: url("images/radiohead/honny.jpg"); }
+
+.radiohead.bandmember.colin {
+  background: url("images/radiohead/colin.jpg"); }
+
+.radiohead.bandmember.phil {
+  background: url("images/radiohead/phil.jpg"); }
+
+.radiohead.band2member.thom {
+  background: url("images/radiohead/thom.jpg"); }
+
+.radiohead.band2member.honny {
+  background: url("images/radiohead/honny.jpg"); }
+
+.radiohead.band2member.colin {
+  background: url("images/radiohead/colin.jpg"); }
+
+.radiohead.band2member.phil {
+  background: url("images/radiohead/phil.jpg"); }
+
+.nin.bandmember.trent {
+  background: url("images/nin/trent.jpg"); }

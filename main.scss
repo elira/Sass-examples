@@ -1,0 +1,38 @@
+@mixin box($size, $color, $display: block){
+	width: $size;
+	height: $size;
+	background: $color;
+	display : $display
+}
+
+a {
+	@include box($color:blue, $size: 20px, $display: inline);
+}
+
+@mixin band($name, $members...){
+
+	@each $member in $members {
+		.#{$name}.bandmember.#{$member}{
+			background: url("images/#{$name}/#{$member}.jpg")
+		}
+	}
+}
+
+
+@mixin band2($name, $members){
+
+	@each $member in $members {
+		.#{$name}.band2member.#{$member}{
+			background: url("images/#{$name}/#{$member}.jpg")
+		}
+	}
+}
+
+
+div {
+	
+}
+
+@include band(radiohead, thom, honny, colin, phil);
+@include band2(radiohead, thom honny colin phil);
+@include band(nin, trent);

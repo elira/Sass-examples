@@ -1,0 +1,7 @@
+//Colors
+$background : desaturate(#187,30%);
+$text-color: mix(#369,#187);//complement($background);
+$highlighted-text-color: lighten($text-color,50%);
+
+//sizes
+$width-box: 20px;
